@@ -1,0 +1,46 @@
+# Ignore virtual environment folders
+venv/
+myenv/
+env/
+*.pyc
+
+# Ignore system-specific files
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Ignore editor and IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore configuration files
+*.ini
+*.cfg
+*.conf
+
+# Ignore logs and temporary files
+*.log
+*.swp
+
+# Ignore dependencies and build artifacts
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Ignore local configuration
+config.json
+secrets.json
+
+# Ignore compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.so
+*.pyd
+
+# Ignore package manager directories
+node_modules/
+vendor/
